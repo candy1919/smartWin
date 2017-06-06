@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.smartWin{
+	position: absolute;
+	overflow: hidden;
+	border:2px solid #99CCFF;
+	-moz-user-select:none; /*火狐*/
+     -webkit-user-select:none; /*webkit浏览器*/
+     -ms-user-select:none; /*IE10*/
+     -khtml-user-select:none; /*早期浏览器*/
+     user-select:none;
+}
+.smartWin .winHead{
+	height: 1.5em;
+	background-color: #99CCFF;
+}
+.smartWin .winName{
+}
+.smartWin .close{
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}
+.smartWin .remove{
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}
+.smartWin .resize{
+	position: absolute;
+	right:-7px;
+	bottom:-7px;
+	padding: 10px;
+	cursor: nw-resize;
+
+}
+// .smartWin .resize .point{
+// 	display: inline-block;
+// 	width: 6px;
+// 	height: 6px;
+// 	background-color: grey;
+// }
